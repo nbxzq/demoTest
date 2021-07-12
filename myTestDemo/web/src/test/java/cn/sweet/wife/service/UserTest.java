@@ -173,7 +173,7 @@ public class UserTest {
 
         User user = new User();
 
-        ResourcePoolConfig resourcePoolConfig = ResourcePoolConfig.builder().setName("exc3").Build();
+        ResourcePoolConfig resourcePoolConfig = ResourcePoolConfig.builder().setName("exc3").build();
     }
 
 
