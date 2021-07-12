@@ -3,6 +3,7 @@ package cn.sweet.wife.service;
 import cn.sweet.wife.model.Apple;
 import cn.sweet.wife.model.BuilderModelTwo.ComputerBuilder;
 import cn.sweet.wife.model.Computer;
+import cn.sweet.wife.model.ResourcePoolConfig;
 import cn.sweet.wife.model.User;
 import com.alibaba.fastjson.JSONObject;
 import lombok.extern.slf4j.Slf4j;
@@ -172,6 +173,7 @@ public class UserTest {
 
         User user = new User();
 
+        ResourcePoolConfig resourcePoolConfig = ResourcePoolConfig.builder().setName("exc3").Build();
     }
 
 
